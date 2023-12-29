@@ -62,3 +62,18 @@ document.addEventListener("DOMContentLoaded", function () {
 playVideo(currentVideoIndex);
 
 });
+
+
+
+// agar tidak bisa di dowload dan save oleh user lain
+// document.addEventListener('contextmenu', function (e) {
+//   e.preventDefault();
+// });
+
+// window.addEventListener('dragover', function(e) {
+//   e.preventDefault();
+// });
+
+// window.addEventListener('drop', function(e) {
+//   e.preventDefault();
+// });
